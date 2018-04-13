@@ -1,6 +1,4 @@
-//#include "../main.c"
-#include "../parallax-library-pros/include/constants.h"
-#include "../parallax-library-pros/main.c"
+#include "main.h"
 
 void autonomous(void) {
 	autonProcedure();
