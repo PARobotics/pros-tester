@@ -1,0 +1,3 @@
+[submodule "parallax-library-pros"]
+	path = parallax-library-pros
+	url = https://github.com/PARobotics/parallax-library-pros
