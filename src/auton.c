@@ -3,6 +3,5 @@
 #include "../parallax-library-pros/main.c"
 
 void autonomous(void) {
-  taskDelete(usercontrol);
 	autonProcedure();
 }
