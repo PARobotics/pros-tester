@@ -1,7 +1,5 @@
-#include "main.h"
-#include "../parallax-library-pros/Bin/constants.h"
-
+#include "../main.c"
 void autonomous(void) {
-  stopTask(usercontrol);
+  taskDelete(usercontrol);
 	autonProcedure();
 }
