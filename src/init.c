@@ -1,5 +1,5 @@
 #include "main.h"
-#include "../parallax-library-pros/Bin/constants.h"
+#include "../parallax-library-pros/include/constants.h"
 
 void initialize() {
   bStopTasksBetweenModes = false;
