@@ -1,3 +1,6 @@
+#ifndef _OPCONTROL_C
+#define _OPCONTROL_C
+
 #include "main.h"
 
 void operatorControl() {
@@ -8,3 +11,4 @@ void operatorControl() {
       userControlUpdate();
     }
 }
+#endif

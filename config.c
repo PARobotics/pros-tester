@@ -1,21 +1,14 @@
+#ifndef _CONFIG_C
+#define _CONFIG_C
+
 #include "main.h"
-#ifndef CONFIG_C
-#define CONFIG_C
 
 /*
   Competition Procedure
   Defines behaviors while the robot goes through pre-auton, autonomous, and user control
 */
 
-// ** Pre auton **
-void preAutonProcedure(){ //This code runs during preauton
-}
 
-// ** Auton **
-
-// ** User Control **
-void userControlProcedure(){ //This code executes inside the user control while loop
-}
 
 //Remote
 #define USE_PR_BUTTON  0

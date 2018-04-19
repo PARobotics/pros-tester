@@ -18,8 +18,8 @@
  * obtained from http://sourceforge.net/projects/freertos/files/ or on request.
  */
 
-#ifndef API_H_
-#define API_H_
+#ifndef _API_H_
+#define _API_H_
 
 // System includes
 #include <stdlib.h>

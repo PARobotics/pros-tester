@@ -1,9 +1,11 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <API.h>
+//#include <parallax-library-pros>
 #include "../parallax-library-pros/include/constants.h"
 #include "../parallax-library-pros/include/main.h"
+#include "../parallax-library-pros/main.c"
 
 // utility functions (already in functions.c in the lib but it's also here for now)
 #define BOUND(A,AMIN,AMAX) MIN(AMAX,MAX(A,AMIN))
