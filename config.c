@@ -1,14 +1,9 @@
 #ifndef _CONFIG_C
 #define _CONFIG_C
 
-#include "main.h"
+//#include "main.h"
 
 /*
-  Competition Procedure
-  Defines behaviors while the robot goes through pre-auton, autonomous, and user control
-*/
-
-
 
 //Remote
 #define USE_PR_BUTTON  0
@@ -22,10 +17,9 @@ void bailOut(){ //Must be included if using bailout
 
 }
 
-/*
   Sensors
   Configure them here
-*/
+
 
 #define USE_SECOND_BATTERY 1 //Include this if using a second battery
 
@@ -34,9 +28,8 @@ void lcdGenerateMessage(){ //Include if using LCD
   printf("%s 8900 %4.1fV %4.1fV", lcdStr1, getMainBatteryVoltage() / 1000.0, getSecondBatteryVoltage() / 1000.0);
 }
 
-/*
   MOTOR CONTROL
-*/
+
 
 //Slew Rate
 #define USE_SLEW  1 //Disable if slew interferes with move functions or slows robot down
@@ -57,10 +50,10 @@ void move(int V, int H, int X){
 
 #define USE_FPS 1 //Use field positioning system.
 
-/*
   DEBUGGING
-*/
+
 
 #define DEBUG 1 //Add your debugging toggles here
+*/
 
 #endif

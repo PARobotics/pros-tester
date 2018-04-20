@@ -1,11 +1,11 @@
 #ifndef _OPCONTROL_C
 #define _OPCONTROL_C
 
-#include "main.h"
+#include "wrappers.h"
 
 void operatorControl() {
 
-    while(true){
+    while(1){
       //put your user control code here
 
       userControlUpdate();
